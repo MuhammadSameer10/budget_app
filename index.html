@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="center">
+    <h1 class="heading">Monthly Budget App</h1>
+  </div>
+
+  <h2 class="headbudget"> Monthly Budget form and EXPENCE </h2>
+  <div class="all">
+    <div class="container1">
+      <h2>Budget</h2>
+      <form>
+        <input type="number" id="budget" placeholder="Enter budget...">
+        <button id="budgetBtn">Add Budget</button>
+      </form>
+    </div>
+
+    <div class="container2">
+      <h2> Enter Expenses </h2>
+      <input type="text" class="product-title" id="product_title" placeholder="Enter product..">
+      <input type="number" id="product_cost" placeholder="cost product..">
+      <input type="date" id="dateInput">
+      <button id="check_amount">check Amount</button>
+    </div>
+  </div>
+
+  <div class="container3">
+    <div>
+      <p>TOTAL BUDGET</p>
+      <span id="amount">0</span>
+    </div>
+    <div>
+      <p>EXPENCE</p>
+      <span id="expence">0</span>
+    </div>
+    <div>
+      <p>BALANCE</p>
+      <span id="balance">0</span>
+    </div>
+  </div>
+
+  <h2>Expense List</h2>
+  <table id="expenseTable">
+    <thead>
+      
+      <tr>
+        <th>Description</th>
+        <th>Amount</th>
+        <th>Date</th>
+      </tr>
+     
+    </thead>
+    <tbody id="expense_List">
+    </tbody>
+  </table>
+  </div>
+  </div>
+
+
+  <h2>Remaining Budget</h2>
+  <p id="remainingBudget"></p>
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
